@@ -1,0 +1,14 @@
+.objc_class_name_WimSession
+_kWimClientIMSent
+_kWimClientSessionOffline
+_kWimClientSessionOnline
+_kWimRequestDidFinish
+_kWimRequestDidStart
+_kWimSessionBuddyListEvent
+_kWimSessionDataIMEvent
+_kWimSessionIMEvent
+_kWimSessionMyInfoEvent
+_kWimSessionOfflineIMEvent
+_kWimSessionPresenceEvent
+_kWimSessionSessionEndedEvent
+_kWimSessionTypingEvent

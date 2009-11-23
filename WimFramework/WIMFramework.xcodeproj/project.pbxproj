@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59EC8A180DC79D15003FA9CC /* WimEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EC8A170DC79D15003FA9CC /* WimEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F799A1B0ECBB7AC006B5807 /* NSDictionary+Buddy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F799A180ECBB7AC006B5807 /* NSDictionary+Buddy.m */; };
+		5F799A1C0ECBB7AC006B5807 /* NSDictionary+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F799A1A0ECBB7AC006B5807 /* NSDictionary+Group.m */; };
+		5F799A720ECBC3C2006B5807 /* MLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F799A120ECBB730006B5807 /* MLog.m */; };
+		5F799C4C0ECBCFDD006B5807 /* NSDictionary+Buddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F799A170ECBB7AC006B5807 /* NSDictionary+Buddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F799C4D0ECBCFDD006B5807 /* NSDictionary+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F799A190ECBB7AC006B5807 /* NSDictionary+Group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8EC3BC0DFEE2B300D72F15 /* Read Me.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F8EC3BB0DFEE2B300D72F15 /* Read Me.rtf */; };
+		5FD9949F0E228FF000787BCE /* WIMFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* WIMFramework.framework */; };
+		5FD994B10E22904800787BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD994610E228E1E00787BCE /* main.m */; };
+		5FD994B20E22904900787BCE /* WimWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD994630E228E1E00787BCE /* WimWindowController.m */; };
+		5FD994C80E22908400787BCE /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD994C60E22908400787BCE /* MainMenu.nib */; };
+		5FEB930F0DF978D600B17ACA /* WimRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB92FD0DF978D600B17ACA /* WimRequest.h */; };
+		5FEB93100DF978D600B17ACA /* WimRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB92FE0DF978D600B17ACA /* WimRequest.m */; };
+		5FEB93110DF978D600B17ACA /* WimConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB92FF0DF978D600B17ACA /* WimConstants.h */; };
+		5FEB93120DF978D600B17ACA /* WimConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93000DF978D600B17ACA /* WimConstants.m */; };
+		5FEB93130DF978D600B17ACA /* WimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93010DF978D600B17ACA /* WimAdditions.m */; };
+		5FEB93140DF978D600B17ACA /* WimPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93020DF978D600B17ACA /* WimPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEB93150DF978D600B17ACA /* WimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93030DF978D600B17ACA /* WimAdditions.h */; };
+		5FEB93160DF978D600B17ACA /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93040DF978D600B17ACA /* NSDataAdditions.m */; };
+		5FEB93180DF978D600B17ACA /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93060DF978D600B17ACA /* NSDataAdditions.h */; };
+		5FEB931E0DF978D600B17ACA /* ClientLogin+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB930C0DF978D600B17ACA /* ClientLogin+Private.h */; settings = {ATTRIBUTES = (); }; };
+		5FEB931F0DF978D600B17ACA /* ClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB930D0DF978D600B17ACA /* ClientLogin.m */; };
+		5FEB93200DF978D600B17ACA /* ClientLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB930E0DF978D600B17ACA /* ClientLogin.h */; };
+		5FEB93230DF978EC00B17ACA /* WimSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93210DF978EC00B17ACA /* WimSession.m */; };
+		5FEB93240DF978EC00B17ACA /* WimSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93220DF978EC00B17ACA /* WimSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEB932E0DF978FD00B17ACA /* SBJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93250DF978FD00B17ACA /* SBJSONScanner.m */; };
+		5FEB932F0DF978FD00B17ACA /* SBJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93260DF978FD00B17ACA /* SBJSONScanner.h */; };
+		5FEB93300DF978FD00B17ACA /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93270DF978FD00B17ACA /* SBJSON.m */; };
+		5FEB93310DF978FD00B17ACA /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB93280DF978FD00B17ACA /* NSString+SBJSON.m */; };
+		5FEB93320DF978FD00B17ACA /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB93290DF978FD00B17ACA /* SBJSON.h */; };
+		5FEB93330DF978FD00B17ACA /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB932A0DF978FD00B17ACA /* NSString+SBJSON.h */; };
+		5FEB93340DF978FD00B17ACA /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB932B0DF978FD00B17ACA /* NSObject+SBJSON.h */; };
+		5FEB93350DF978FD00B17ACA /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEB932C0DF978FD00B17ACA /* JSON.h */; };
+		5FEB93360DF978FD00B17ACA /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB932D0DF978FD00B17ACA /* NSObject+SBJSON.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD994700E228E7F00787BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = WIMFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* AimWimFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AimWimFramework_Prefix.pch; sourceTree = "<group>"; };
+		59EC899E0DC77368003FA9CC /* exports */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = exports; sourceTree = "<group>"; };
+		59EC8A170DC79D15003FA9CC /* WimEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimEvents.h; sourceTree = "<group>"; };
+		5F799A110ECBB730006B5807 /* MLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLog.h; sourceTree = "<group>"; };
+		5F799A120ECBB730006B5807 /* MLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLog.m; sourceTree = "<group>"; };
+		5F799A170ECBB7AC006B5807 /* NSDictionary+Buddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Buddy.h"; path = "Classes/NSDictionary+Buddy.h"; sourceTree = "<group>"; };
+		5F799A180ECBB7AC006B5807 /* NSDictionary+Buddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Buddy.m"; path = "Classes/NSDictionary+Buddy.m"; sourceTree = "<group>"; };
+		5F799A190ECBB7AC006B5807 /* NSDictionary+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Group.h"; path = "Classes/NSDictionary+Group.h"; sourceTree = "<group>"; };
+		5F799A1A0ECBB7AC006B5807 /* NSDictionary+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Group.m"; path = "Classes/NSDictionary+Group.m"; sourceTree = "<group>"; };
+		5F8EC3BB0DFEE2B300D72F15 /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
+		5FD994520E228D9D00787BCE /* TestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD994540E228D9D00787BCE /* TestHarness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestHarness-Info.plist"; sourceTree = "<group>"; };
+		5FD994610E228E1E00787BCE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../WimFrameworkHarness/main.m; sourceTree = "<group>"; };
+		5FD994620E228E1E00787BCE /* WimWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WimWindowController.h; path = ../WimFrameworkHarness/WimWindowController.h; sourceTree = "<group>"; };
+		5FD994630E228E1E00787BCE /* WimWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WimWindowController.m; path = ../WimFrameworkHarness/WimWindowController.m; sourceTree = "<group>"; };
+		5FD994C70E22908400787BCE /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../WimFrameworkHarness/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		5FEB92FD0DF978D600B17ACA /* WimRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WimRequest.h; path = Classes/Helpers/WimRequest.h; sourceTree = SOURCE_ROOT; };
+		5FEB92FE0DF978D600B17ACA /* WimRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WimRequest.m; path = Classes/Helpers/WimRequest.m; sourceTree = SOURCE_ROOT; };
+		5FEB92FF0DF978D600B17ACA /* WimConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WimConstants.h; path = Classes/Helpers/WimConstants.h; sourceTree = SOURCE_ROOT; };
+		5FEB93000DF978D600B17ACA /* WimConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WimConstants.m; path = Classes/Helpers/WimConstants.m; sourceTree = SOURCE_ROOT; };
+		5FEB93010DF978D600B17ACA /* WimAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WimAdditions.m; path = Classes/Helpers/WimAdditions.m; sourceTree = SOURCE_ROOT; };
+		5FEB93020DF978D600B17ACA /* WimPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimPlatform.h; sourceTree = "<group>"; };
+		5FEB93030DF978D600B17ACA /* WimAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WimAdditions.h; path = Classes/Helpers/WimAdditions.h; sourceTree = SOURCE_ROOT; };
+		5FEB93040DF978D600B17ACA /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAdditions.m; path = Classes/Helpers/NSDataAdditions.m; sourceTree = SOURCE_ROOT; };
+		5FEB93060DF978D600B17ACA /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataAdditions.h; path = Classes/Helpers/NSDataAdditions.h; sourceTree = SOURCE_ROOT; };
+		5FEB930C0DF978D600B17ACA /* ClientLogin+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ClientLogin+Private.h"; path = "Classes/Helpers/ClientLogin+Private.h"; sourceTree = SOURCE_ROOT; };
+		5FEB930D0DF978D600B17ACA /* ClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientLogin.m; path = Classes/Helpers/ClientLogin.m; sourceTree = SOURCE_ROOT; };
+		5FEB930E0DF978D600B17ACA /* ClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientLogin.h; path = Classes/Helpers/ClientLogin.h; sourceTree = SOURCE_ROOT; };
+		5FEB93210DF978EC00B17ACA /* WimSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WimSession.m; path = Classes/WimSession.m; sourceTree = "<group>"; };
+		5FEB93220DF978EC00B17ACA /* WimSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WimSession.h; path = Classes/WimSession.h; sourceTree = "<group>"; };
+		5FEB93250DF978FD00B17ACA /* SBJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSONScanner.m; path = Classes/JSON/SBJSONScanner.m; sourceTree = SOURCE_ROOT; };
+		5FEB93260DF978FD00B17ACA /* SBJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSONScanner.h; path = Classes/JSON/SBJSONScanner.h; sourceTree = SOURCE_ROOT; };
+		5FEB93270DF978FD00B17ACA /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = Classes/JSON/SBJSON.m; sourceTree = SOURCE_ROOT; };
+		5FEB93280DF978FD00B17ACA /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "Classes/JSON/NSString+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		5FEB93290DF978FD00B17ACA /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = Classes/JSON/SBJSON.h; sourceTree = SOURCE_ROOT; };
+		5FEB932A0DF978FD00B17ACA /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "Classes/JSON/NSString+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		5FEB932B0DF978FD00B17ACA /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "Classes/JSON/NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
+		5FEB932C0DF978FD00B17ACA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = Classes/JSON/JSON.h; sourceTree = SOURCE_ROOT; };
+		5FEB932D0DF978FD00B17ACA /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "Classes/JSON/NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* WIMFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WIMFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD994500E228D9D00787BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD9949F0E228FF000787BCE /* WIMFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* WIMFramework.framework */,
+				5FD994520E228D9D00787BCE /* TestHarness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* AimWimFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5F8EC3BB0DFEE2B300D72F15 /* Read Me.rtf */,
+				5FD9945F0E228E0800787BCE /* TestHarness */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = AimWimFramework;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59EC899E0DC77368003FA9CC /* exports */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F799A170ECBB7AC006B5807 /* NSDictionary+Buddy.h */,
+				5F799A180ECBB7AC006B5807 /* NSDictionary+Buddy.m */,
+				5F799A190ECBB7AC006B5807 /* NSDictionary+Group.h */,
+				5F799A1A0ECBB7AC006B5807 /* NSDictionary+Group.m */,
+				5FEB93210DF978EC00B17ACA /* WimSession.m */,
+				5FEB93220DF978EC00B17ACA /* WimSession.h */,
+				59EC8A170DC79D15003FA9CC /* WimEvents.h */,
+				59EC88E40DC7615A003FA9CC /* Helpers */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				59EC88DD0DC7615A003FA9CC /* JSON */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5F799A110ECBB730006B5807 /* MLog.h */,
+				5F799A120ECBB730006B5807 /* MLog.m */,
+				32DBCF5E0370ADEE00C91783 /* AimWimFramework_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		59EC88DD0DC7615A003FA9CC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5FEB93250DF978FD00B17ACA /* SBJSONScanner.m */,
+				5FEB93260DF978FD00B17ACA /* SBJSONScanner.h */,
+				5FEB93270DF978FD00B17ACA /* SBJSON.m */,
+				5FEB93280DF978FD00B17ACA /* NSString+SBJSON.m */,
+				5FEB93290DF978FD00B17ACA /* SBJSON.h */,
+				5FEB932A0DF978FD00B17ACA /* NSString+SBJSON.h */,
+				5FEB932B0DF978FD00B17ACA /* NSObject+SBJSON.h */,
+				5FEB932C0DF978FD00B17ACA /* JSON.h */,
+				5FEB932D0DF978FD00B17ACA /* NSObject+SBJSON.m */,
+			);
+			name = JSON;
+			path = Classes/JSON;
+			sourceTree = "<group>";
+		};
+		59EC88E40DC7615A003FA9CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5FEB92FD0DF978D600B17ACA /* WimRequest.h */,
+				5FEB92FE0DF978D600B17ACA /* WimRequest.m */,
+				5FEB92FF0DF978D600B17ACA /* WimConstants.h */,
+				5FEB93000DF978D600B17ACA /* WimConstants.m */,
+				5FEB93010DF978D600B17ACA /* WimAdditions.m */,
+				5FEB93020DF978D600B17ACA /* WimPlatform.h */,
+				5FEB93030DF978D600B17ACA /* WimAdditions.h */,
+				5FEB93040DF978D600B17ACA /* NSDataAdditions.m */,
+				5FEB93060DF978D600B17ACA /* NSDataAdditions.h */,
+				5FEB930C0DF978D600B17ACA /* ClientLogin+Private.h */,
+				5FEB930D0DF978D600B17ACA /* ClientLogin.m */,
+				5FEB930E0DF978D600B17ACA /* ClientLogin.h */,
+			);
+			name = Helpers;
+			path = Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		5FD9945F0E228E0800787BCE /* TestHarness */ = {
+			isa = PBXGroup;
+			children = (
+				5FD994540E228D9D00787BCE /* TestHarness-Info.plist */,
+				5FD994C60E22908400787BCE /* MainMenu.nib */,
+				5FD994610E228E1E00787BCE /* main.m */,
+				5FD994620E228E1E00787BCE /* WimWindowController.h */,
+				5FD994630E228E1E00787BCE /* WimWindowController.m */,
+			);
+			name = TestHarness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F799C4C0ECBCFDD006B5807 /* NSDictionary+Buddy.h in Headers */,
+				5F799C4D0ECBCFDD006B5807 /* NSDictionary+Group.h in Headers */,
+				59EC8A180DC79D15003FA9CC /* WimEvents.h in Headers */,
+				5FEB930F0DF978D600B17ACA /* WimRequest.h in Headers */,
+				5FEB93110DF978D600B17ACA /* WimConstants.h in Headers */,
+				5FEB93140DF978D600B17ACA /* WimPlatform.h in Headers */,
+				5FEB93150DF978D600B17ACA /* WimAdditions.h in Headers */,
+				5FEB93180DF978D600B17ACA /* NSDataAdditions.h in Headers */,
+				5FEB931E0DF978D600B17ACA /* ClientLogin+Private.h in Headers */,
+				5FEB93200DF978D600B17ACA /* ClientLogin.h in Headers */,
+				5FEB93240DF978EC00B17ACA /* WimSession.h in Headers */,
+				5FEB932F0DF978FD00B17ACA /* SBJSONScanner.h in Headers */,
+				5FEB93320DF978FD00B17ACA /* SBJSON.h in Headers */,
+				5FEB93330DF978FD00B17ACA /* NSString+SBJSON.h in Headers */,
+				5FEB93340DF978FD00B17ACA /* NSObject+SBJSON.h in Headers */,
+				5FEB93350DF978FD00B17ACA /* JSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FD994510E228D9D00787BCE /* TestHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD994570E228D9F00787BCE /* Build configuration list for PBXNativeTarget "TestHarness" */;
+			buildPhases = (
+				5FD9944E0E228D9D00787BCE /* Resources */,
+				5FD9944F0E228D9D00787BCE /* Sources */,
+				5FD994500E228D9D00787BCE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD994710E228E7F00787BCE /* PBXTargetDependency */,
+			);
+			name = TestHarness;
+			productName = TestHarness;
+			productReference = 5FD994520E228D9D00787BCE /* TestHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC2EF4F0486A6940098B216 /* WIMFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "WIMFramework" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIMFramework;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = AimWimFramework;
+			productReference = 8DC2EF5B0486A6940098B216 /* WIMFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "WIMFramework" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* AimWimFramework */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* WIMFramework */,
+				5FD994510E228D9D00787BCE /* TestHarness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD9944E0E228D9D00787BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD994C80E22908400787BCE /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				5F8EC3BC0DFEE2B300D72F15 /* Read Me.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD9944F0E228D9D00787BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD994B10E22904800787BCE /* main.m in Sources */,
+				5FD994B20E22904900787BCE /* WimWindowController.m in Sources */,
+				5F799A1B0ECBB7AC006B5807 /* NSDictionary+Buddy.m in Sources */,
+				5F799A1C0ECBB7AC006B5807 /* NSDictionary+Group.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEB93100DF978D600B17ACA /* WimRequest.m in Sources */,
+				5FEB93120DF978D600B17ACA /* WimConstants.m in Sources */,
+				5FEB93130DF978D600B17ACA /* WimAdditions.m in Sources */,
+				5FEB93160DF978D600B17ACA /* NSDataAdditions.m in Sources */,
+				5FEB931F0DF978D600B17ACA /* ClientLogin.m in Sources */,
+				5FEB93230DF978EC00B17ACA /* WimSession.m in Sources */,
+				5FEB932E0DF978FD00B17ACA /* SBJSONScanner.m in Sources */,
+				5FEB93300DF978FD00B17ACA /* SBJSON.m in Sources */,
+				5FEB93310DF978FD00B17ACA /* NSString+SBJSON.m in Sources */,
+				5FEB93360DF978FD00B17ACA /* NSObject+SBJSON.m in Sources */,
+				5F799A720ECBC3C2006B5807 /* MLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD994710E228E7F00787BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* WIMFramework */;
+			targetProxy = 5FD994700E228E7F00787BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FD994C60E22908400787BCE /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD994C70E22908400787BCE /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AimWimFramework_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = WIMFramework;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = exports;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AimWimFramework_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = WIMFramework;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					LOGGING_ENABLED,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = WIMFramework;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = WIMFramework;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+		5FD994550E228D9E00787BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestHarness-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestHarness;
+			};
+			name = Debug;
+		};
+		5FD994560E228D9E00787BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestHarness-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestHarness;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "WIMFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "WIMFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD994570E228D9F00787BCE /* Build configuration list for PBXNativeTarget "TestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD994550E228D9E00787BCE /* Debug */,
+				5FD994560E228D9E00787BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
