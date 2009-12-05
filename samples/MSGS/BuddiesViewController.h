@@ -1,0 +1,16 @@
+//
+//  BuddiesViewController.h
+//  MSGS
+//
+//  Created by Michael Grinich on 5/4/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "MSGSAppDelegate.h"
+
+@interface BuddiesViewController : UITableViewController {
+
+}
+
+@end

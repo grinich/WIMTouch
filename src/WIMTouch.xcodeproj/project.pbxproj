@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAB079110CA006500781516 /* NSDictionary+Buddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB076F10CA006500781516 /* NSDictionary+Buddy.h */; };
+		4CAB079210CA006500781516 /* NSDictionary+Buddy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077010CA006500781516 /* NSDictionary+Buddy.m */; };
+		4CAB079310CA006500781516 /* NSDictionary+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077110CA006500781516 /* NSDictionary+Group.h */; };
+		4CAB079410CA006500781516 /* NSDictionary+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077210CA006500781516 /* NSDictionary+Group.m */; };
+		4CAB079510CA006500781516 /* WimSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077310CA006500781516 /* WimSession.m */; };
+		4CAB079610CA006500781516 /* WimSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077410CA006500781516 /* WimSession.h */; };
+		4CAB079710CA006500781516 /* WimEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077510CA006500781516 /* WimEvents.h */; };
+		4CAB079810CA006500781516 /* WimRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077710CA006500781516 /* WimRequest.h */; };
+		4CAB079910CA006500781516 /* WimRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077810CA006500781516 /* WimRequest.m */; };
+		4CAB079A10CA006500781516 /* WimConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077910CA006500781516 /* WimConstants.h */; };
+		4CAB079B10CA006500781516 /* WimConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077A10CA006500781516 /* WimConstants.m */; };
+		4CAB079C10CA006500781516 /* WimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077B10CA006500781516 /* WimAdditions.m */; };
+		4CAB079D10CA006500781516 /* WimPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077C10CA006500781516 /* WimPlatform.h */; };
+		4CAB079E10CA006500781516 /* WimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077D10CA006500781516 /* WimAdditions.h */; };
+		4CAB079F10CA006500781516 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB077E10CA006500781516 /* NSDataAdditions.m */; };
+		4CAB07A010CA006500781516 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB077F10CA006500781516 /* NSDataAdditions.h */; };
+		4CAB07A110CA006500781516 /* ClientLogin+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078010CA006500781516 /* ClientLogin+Private.h */; };
+		4CAB07A210CA006500781516 /* ClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB078110CA006500781516 /* ClientLogin.m */; };
+		4CAB07A310CA006500781516 /* ClientLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078210CA006500781516 /* ClientLogin.h */; };
+		4CAB07A410CA006500781516 /* MLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078410CA006500781516 /* MLog.h */; };
+		4CAB07A510CA006500781516 /* MLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB078510CA006500781516 /* MLog.m */; };
+		4CAB07A610CA006500781516 /* AimWimFramework_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078610CA006500781516 /* AimWimFramework_Prefix.pch */; };
+		4CAB07A710CA006500781516 /* SBJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB078810CA006500781516 /* SBJSONScanner.m */; };
+		4CAB07A810CA006500781516 /* SBJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078910CA006500781516 /* SBJSONScanner.h */; };
+		4CAB07A910CA006500781516 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB078A10CA006500781516 /* SBJSON.m */; };
+		4CAB07AA10CA006500781516 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB078B10CA006500781516 /* NSString+SBJSON.m */; };
+		4CAB07AB10CA006500781516 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078C10CA006500781516 /* SBJSON.h */; };
+		4CAB07AC10CA006500781516 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078D10CA006500781516 /* NSString+SBJSON.h */; };
+		4CAB07AD10CA006500781516 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078E10CA006500781516 /* NSObject+SBJSON.h */; };
+		4CAB07AE10CA006500781516 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB078F10CA006500781516 /* JSON.h */; };
+		4CAB07AF10CA006500781516 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB079010CA006500781516 /* NSObject+SBJSON.m */; };
+		4CAB090310CA00EE00781516 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAB090210CA00EE00781516 /* CoreData.framework */; };
+		4CAB099210CA031F00781516 /* WIMTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAB099110CA031F00781516 /* WIMTouch.h */; };
+		AA747D9F0F9514B9006C5449 /* WIMTouch_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* WIMTouch_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CAB076F10CA006500781516 /* NSDictionary+Buddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Buddy.h"; sourceTree = "<group>"; };
+		4CAB077010CA006500781516 /* NSDictionary+Buddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Buddy.m"; sourceTree = "<group>"; };
+		4CAB077110CA006500781516 /* NSDictionary+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Group.h"; sourceTree = "<group>"; };
+		4CAB077210CA006500781516 /* NSDictionary+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Group.m"; sourceTree = "<group>"; };
+		4CAB077310CA006500781516 /* WimSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WimSession.m; sourceTree = "<group>"; };
+		4CAB077410CA006500781516 /* WimSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimSession.h; sourceTree = "<group>"; };
+		4CAB077510CA006500781516 /* WimEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimEvents.h; sourceTree = "<group>"; };
+		4CAB077710CA006500781516 /* WimRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimRequest.h; sourceTree = "<group>"; };
+		4CAB077810CA006500781516 /* WimRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WimRequest.m; sourceTree = "<group>"; };
+		4CAB077910CA006500781516 /* WimConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimConstants.h; sourceTree = "<group>"; };
+		4CAB077A10CA006500781516 /* WimConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WimConstants.m; sourceTree = "<group>"; };
+		4CAB077B10CA006500781516 /* WimAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WimAdditions.m; sourceTree = "<group>"; };
+		4CAB077C10CA006500781516 /* WimPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimPlatform.h; sourceTree = "<group>"; };
+		4CAB077D10CA006500781516 /* WimAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WimAdditions.h; sourceTree = "<group>"; };
+		4CAB077E10CA006500781516 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		4CAB077F10CA006500781516 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		4CAB078010CA006500781516 /* ClientLogin+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClientLogin+Private.h"; sourceTree = "<group>"; };
+		4CAB078110CA006500781516 /* ClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientLogin.m; sourceTree = "<group>"; };
+		4CAB078210CA006500781516 /* ClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientLogin.h; sourceTree = "<group>"; };
+		4CAB078410CA006500781516 /* MLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLog.h; sourceTree = "<group>"; };
+		4CAB078510CA006500781516 /* MLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLog.m; sourceTree = "<group>"; };
+		4CAB078610CA006500781516 /* AimWimFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AimWimFramework_Prefix.pch; sourceTree = "<group>"; };
+		4CAB078810CA006500781516 /* SBJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSONScanner.m; sourceTree = "<group>"; };
+		4CAB078910CA006500781516 /* SBJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSONScanner.h; sourceTree = "<group>"; };
+		4CAB078A10CA006500781516 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		4CAB078B10CA006500781516 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		4CAB078C10CA006500781516 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		4CAB078D10CA006500781516 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		4CAB078E10CA006500781516 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		4CAB078F10CA006500781516 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		4CAB079010CA006500781516 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		4CAB090210CA00EE00781516 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4CAB099110CA031F00781516 /* WIMTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIMTouch.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* WIMTouch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIMTouch_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libWIMTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWIMTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4CAB090310CA00EE00781516 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libWIMTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* WIMTouch */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB099110CA031F00781516 /* WIMTouch.h */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = WIMTouch;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB090210CA00EE00781516 /* CoreData.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB078310CA006500781516 /* Other Sources */,
+				4CAB076F10CA006500781516 /* NSDictionary+Buddy.h */,
+				4CAB077010CA006500781516 /* NSDictionary+Buddy.m */,
+				4CAB077110CA006500781516 /* NSDictionary+Group.h */,
+				4CAB077210CA006500781516 /* NSDictionary+Group.m */,
+				4CAB077310CA006500781516 /* WimSession.m */,
+				4CAB077410CA006500781516 /* WimSession.h */,
+				4CAB077510CA006500781516 /* WimEvents.h */,
+				4CAB078710CA006500781516 /* JSON */,
+				4CAB077610CA006500781516 /* Helpers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* WIMTouch_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4CAB077610CA006500781516 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB077710CA006500781516 /* WimRequest.h */,
+				4CAB077810CA006500781516 /* WimRequest.m */,
+				4CAB077910CA006500781516 /* WimConstants.h */,
+				4CAB077A10CA006500781516 /* WimConstants.m */,
+				4CAB077B10CA006500781516 /* WimAdditions.m */,
+				4CAB077C10CA006500781516 /* WimPlatform.h */,
+				4CAB077D10CA006500781516 /* WimAdditions.h */,
+				4CAB077E10CA006500781516 /* NSDataAdditions.m */,
+				4CAB077F10CA006500781516 /* NSDataAdditions.h */,
+				4CAB078010CA006500781516 /* ClientLogin+Private.h */,
+				4CAB078110CA006500781516 /* ClientLogin.m */,
+				4CAB078210CA006500781516 /* ClientLogin.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4CAB078310CA006500781516 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB078410CA006500781516 /* MLog.h */,
+				4CAB078510CA006500781516 /* MLog.m */,
+				4CAB078610CA006500781516 /* AimWimFramework_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4CAB078710CA006500781516 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB078810CA006500781516 /* SBJSONScanner.m */,
+				4CAB078910CA006500781516 /* SBJSONScanner.h */,
+				4CAB078A10CA006500781516 /* SBJSON.m */,
+				4CAB078B10CA006500781516 /* NSString+SBJSON.m */,
+				4CAB078C10CA006500781516 /* SBJSON.h */,
+				4CAB078D10CA006500781516 /* NSString+SBJSON.h */,
+				4CAB078E10CA006500781516 /* NSObject+SBJSON.h */,
+				4CAB078F10CA006500781516 /* JSON.h */,
+				4CAB079010CA006500781516 /* NSObject+SBJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* WIMTouch_Prefix.pch in Headers */,
+				4CAB079110CA006500781516 /* NSDictionary+Buddy.h in Headers */,
+				4CAB079310CA006500781516 /* NSDictionary+Group.h in Headers */,
+				4CAB079610CA006500781516 /* WimSession.h in Headers */,
+				4CAB079710CA006500781516 /* WimEvents.h in Headers */,
+				4CAB079810CA006500781516 /* WimRequest.h in Headers */,
+				4CAB079A10CA006500781516 /* WimConstants.h in Headers */,
+				4CAB079D10CA006500781516 /* WimPlatform.h in Headers */,
+				4CAB079E10CA006500781516 /* WimAdditions.h in Headers */,
+				4CAB07A010CA006500781516 /* NSDataAdditions.h in Headers */,
+				4CAB07A110CA006500781516 /* ClientLogin+Private.h in Headers */,
+				4CAB07A310CA006500781516 /* ClientLogin.h in Headers */,
+				4CAB07A410CA006500781516 /* MLog.h in Headers */,
+				4CAB07A610CA006500781516 /* AimWimFramework_Prefix.pch in Headers */,
+				4CAB07A810CA006500781516 /* SBJSONScanner.h in Headers */,
+				4CAB07AB10CA006500781516 /* SBJSON.h in Headers */,
+				4CAB07AC10CA006500781516 /* NSString+SBJSON.h in Headers */,
+				4CAB07AD10CA006500781516 /* NSObject+SBJSON.h in Headers */,
+				4CAB07AE10CA006500781516 /* JSON.h in Headers */,
+				4CAB099210CA031F00781516 /* WIMTouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* WIMTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "WIMTouch" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIMTouch;
+			productName = WIMTouch;
+			productReference = D2AAC07E0554694100DB518D /* libWIMTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "WIMTouch" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* WIMTouch */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* WIMTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAB079210CA006500781516 /* NSDictionary+Buddy.m in Sources */,
+				4CAB079410CA006500781516 /* NSDictionary+Group.m in Sources */,
+				4CAB079510CA006500781516 /* WimSession.m in Sources */,
+				4CAB079910CA006500781516 /* WimRequest.m in Sources */,
+				4CAB079B10CA006500781516 /* WimConstants.m in Sources */,
+				4CAB079C10CA006500781516 /* WimAdditions.m in Sources */,
+				4CAB079F10CA006500781516 /* NSDataAdditions.m in Sources */,
+				4CAB07A210CA006500781516 /* ClientLogin.m in Sources */,
+				4CAB07A510CA006500781516 /* MLog.m in Sources */,
+				4CAB07A710CA006500781516 /* SBJSONScanner.m in Sources */,
+				4CAB07A910CA006500781516 /* SBJSON.m in Sources */,
+				4CAB07AA10CA006500781516 /* NSString+SBJSON.m in Sources */,
+				4CAB07AF10CA006500781516 /* NSObject+SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/WIMTouch.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WIMTouch_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = WIMTouch;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/WIMTouch.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WIMTouch_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = WIMTouch;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "WIMTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "WIMTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

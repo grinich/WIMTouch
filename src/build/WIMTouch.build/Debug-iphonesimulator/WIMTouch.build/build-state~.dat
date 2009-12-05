@@ -1,0 +1,540 @@
+TWIMTouch
+v7
+r0
+t281676826.905847
+cCheck dependencies
+cProcessPCH /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch.gch WIMTouch_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Buddy.o /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Group.o /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimSession.o /Users/Michael/Projects/WIM-Framework/src/WimSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimRequest.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimConstants.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimAdditions.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDataAdditions.o /Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/ClientLogin.o /Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/MLog.o /Users/Michael/Projects/WIM-Framework/src/MLog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSONScanner.o /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSString+SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004ABE051D00000000000000EE
+t1253967133
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004A0BABDE0000000000180310
+t1242278878
+s1573648
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000260C20
+t1242278711
+s2493472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004748A1090000000000000DE2
+t1195942153
+s3554
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin+Private.h
+c000000004B0AC2210000000000000873
+t1258996257
+s2163
+i"WimPlatform.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.h
+c000000004B0AC221000000000000098A
+t1258996257
+s2442
+i"WimPlatform.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m
+c000000004B0AC2210000000000002AE9
+t1258996257
+s10985
+i"ClientLogin.h"
+i"ClientLogin+Private.h"
+i"MLog.h"
+i"WimRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+i"CommonHMAC.h"
+i"NSDataAdditions.h"
+i"JSON.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.h
+c000000004B0AC221000000000000011D
+t1258996257
+s285
+i"WimPlatform.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m
+c000000004B0AC2210000000000000F5A
+t1258996257
+s3930
+i"NSDataAdditions.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.h
+c000000004B0AC221000000000000070B
+t1258996257
+s1803
+i"WimPlatform.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m
+c000000004B0AC221000000000000222E
+t1258996257
+s8750
+i"WimAdditions.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.h
+c000000004B0AC22100000000000009BD
+t1258996257
+s2493
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m
+c000000004B0AC221000000000000150B
+t1258996257
+s5387
+i"WimPlatform.h"
+i"WimConstants.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimPlatform.h
+c000000004B0AC2210000000000000621
+t1258996257
+s1569
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.h
+c000000004B0AC22100000000000009F1
+t1258996257
+s2545
+i"WimPlatform.h"
+i"WimAdditions.h"
+i"WimConstants.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m
+c000000004B0AC221000000000000262E
+t1258996257
+s9774
+i"WimRequest.h"
+i"WimEvents.h"
+i"MLog.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/JSON.h
+c000000004B0AC221000000000000063F
+t1258996257
+s1599
+i<Foundation/Foundation.h>
+i<SBJSON.h>
+i<NSObject+SBJSON.h>
+i<NSString+SBJSON.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.h
+c000000004B0AC2220000000000000762
+t1258996258
+s1890
+i<Foundation/Foundation.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m
+c000000004B0AC2220000000000000A04
+t1258996258
+s2564
+i"NSObject+SBJSON.h"
+i"SBJSON.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.h
+c000000004B0AC2220000000000000679
+t1258996258
+s1657
+i<Foundation/Foundation.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m
+c000000004B0AC2220000000000000A1A
+t1258996258
+s2586
+i"NSString+SBJSON.h"
+i"SBJSONScanner.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.h
+c000000004B0AC221000000000000076C
+t1258996257
+s1900
+i<Foundation/Foundation.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m
+c000000004B0AC2220000000000001DD5
+t1258996258
+s7637
+i"SBJSON.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.h
+c000000004B0AC2220000000000000745
+t1258996258
+s1861
+i<Foundation/Foundation.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m
+c000000004B0AC221000000000000301B
+t1258996257
+s12315
+i"SBJSONScanner.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/MLog.h
+c000000004B0AC222000000000000021E
+t1258996258
+s542
+
+N/Users/Michael/Projects/WIM-Framework/src/MLog.m
+c000000004B0AC2220000000000000394
+t1258996258
+s916
+i"MLog.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.h
+c000000004B0AC2220000000000000810
+t1258996258
+s2064
+i"WimPlatform.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m
+c000000004B0AC2220000000000001364
+t1258996258
+s4964
+i"NSDictionary+Buddy.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.h
+c000000004B0AC22200000000000006A9
+t1258996258
+s1705
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m
+c000000004B0AC2220000000000000877
+t1258996258
+s2167
+i"NSDictionary+Group.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/WIMTouch_Prefix.pch
+c000000004B19C89700000000000000BC
+t1259980951
+s188
+i<Foundation/Foundation.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/WimEvents.h
+c000000004B0AC2220000000000000AA1
+t1258996258
+s2721
+
+N/Users/Michael/Projects/WIM-Framework/src/WimSession.h
+c000000004B0AC2220000000000002575
+t1258996258
+s9589
+i"WimPlatform.h"
+i"WimEvents.h"
+i"NSDictionary+Buddy.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/WimSession.m
+c000000004B0AC222000000000000ECE0
+t1258996258
+s60640
+i"WimSession.h"
+i"WimRequest.h"
+i"ClientLogin.h"
+i"ClientLogin+Private.h"
+i"NSDataAdditions.h"
+i"WimConstants.h"
+i"JSON.h"
+i<CommonCrypto/CommonHMAC.h>
+i"CommonHMAC.h"
+i"MLog.h"
+
+N/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a
+t1259984026
+s336488
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/ClientLogin.o
+t1259984026
+s30872
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/MLog.o
+t1259984026
+s9100
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDataAdditions.o
+t1259984026
+s11916
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Buddy.o
+t1259984024
+s15524
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Group.o
+t1259984024
+s8312
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSObject+SBJSON.o
+t1259984026
+s8960
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSString+SBJSON.o
+t1259984026
+s9312
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSON.o
+t1259984026
+s20632
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSONScanner.o
+t1259984026
+s33492
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WIMTouch.LinkFileList
+c000000004B19D49800000000000006DE
+t1259984024
+s1758
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimAdditions.o
+t1259984026
+s26804
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimConstants.o
+t1259984026
+s11828
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimRequest.o
+t1259984025
+s26264
+
+N/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimSession.o
+t1259984025
+s120140
+
+N/var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch.gch
+t1259984024
+s8939984
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281676824#281676824#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/ClientLogin.o /Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.078458
+e281676826.345709
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/ClientLogin.o
+x/Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m281676826#281676826#0(0"0(0#0#63"/Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m4300885448#1931"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/Helpers/ClientLogin.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/ClientLogin.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/MLog.o /Users/Michael/Projects/WIM-Framework/src/MLog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.345815
+e281676826.662960
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/MLog.o
+x/Users/Michael/Projects/WIM-Framework/src/MLog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Michael/Projects/WIM-Framework/src/MLog.m: In function '+[MStringLog logFile:lineNumber:format:]':
+o/Users/Michael/Projects/WIM-Framework/src/MLog.m:32: warning: format not a string literal and no format arguments
+lSLF07#2@56"Compile /Users/Michael/Projects/WIM-Framework/src/MLog.m281676826#281676826#0(220"/Users/Michael/Projects/WIM-Framework/src/MLog.m: In function '+[MStringLog logFile:lineNumber:format:]':/Users/Michael/Projects/WIM-Framework/src/MLog.m:32: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments281676826#106#114#0(6@48"/Users/Michael/Projects/WIM-Framework/src/MLog.m280689058#32#0#32#0#51"format not a string literal and no format arguments0(0#0#48"/Users/Michael/Projects/WIM-Framework/src/MLog.m4300885448#1909"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/MLog.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/MLog.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDataAdditions.o /Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.076741
+e281676826.346929
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDataAdditions.o
+x/Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m281676826#281676826#0(0"0(0#0#67"/Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m4300885448#1939"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/Helpers/NSDataAdditions.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDataAdditions.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Buddy.o /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676824.639394
+e281676824.936174
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Buddy.o
+x/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m281676824#281676824#0(0"0(0#0#62"/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m4300885448#1937"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Buddy.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Buddy.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Group.o /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676824.640576
+e281676824.934639
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Group.o
+x/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m281676824#281676824#0(0"0(0#0#62"/Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m4300885448#1937"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/NSDictionary+Group.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSDictionary+Group.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.778637
+e281676826.880946
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m281676826#281676826#0(0"0(0#0#64"/Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m4300885448#1936"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/JSON/NSObject+SBJSON.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSString+SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.770493
+e281676826.886703
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m: In function '-[NSString(NSString_SBJSON) JSONValueWithOptions:]':
+o/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m:63: warning: control reaches end of non-void function
+o/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m: In function '-[NSString(NSString_SBJSON) JSONFragmentValue]':
+o/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m:78: warning: control reaches end of non-void function
+lSLF07#2@72"Compile /Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m281676826#281676826#0(498"/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m: In function '-[NSString(NSString_SBJSON) JSONValueWithOptions:]':/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m:63: warning: control reaches end of non-void function/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m: In function '-[NSString(NSString_SBJSON) JSONFragmentValue]':/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m:78: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function281676826#132#119#0(6@64"/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m280689058#63#0#63#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function281676826#379#119#0(6@64"/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m280689058#78#0#78#0#40"control reaches end of non-void function0(0#0#64"/Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m4300885448#1936"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/JSON/NSString+SBJSON.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSON.o /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.663067
+e281676826.770383
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSON.o
+x/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m281676826#281676826#0(0"0(0#0#55"/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m4300885448#1918"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSON.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSONScanner.o /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676826.347013
+e281676826.778529
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSONScanner.o
+x/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m: In function '-[SBJSONScanner scanRestOfArray:]':
+o/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m:218: warning: control reaches end of non-void function
+o/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m: In function '-[SBJSONScanner scanRestOfDictionary:]':
+o/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m:268: warning: control reaches end of non-void function
+lSLF07#2@70"Compile /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m281676826#281676826#0(467"/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m: In function '-[SBJSONScanner scanRestOfArray:]':/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m:218: warning: control reaches end of non-void function/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m: In function '-[SBJSONScanner scanRestOfDictionary:]':/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m:268: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function281676826#113#118#0(6@62"/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m280689057#218#0#218#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function281676826#349#118#0(6@62"/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m280689057#268#0#268#0#40"control reaches end of non-void function0(0#0#62"/Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m4300885448#1932"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/JSON/SBJSONScanner.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/SBJSONScanner.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimAdditions.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676825.780047
+e281676826.078356
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimAdditions.o
+x/Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m281676825#281676826#0(0"0(0#0#64"/Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m4300885448#1933"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/Helpers/WimAdditions.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimAdditions.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimConstants.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676825.778330
+e281676826.076635
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimConstants.o
+x/Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m281676825#281676826#0(0"0(0#0#64"/Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m4300885448#1933"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/Helpers/WimConstants.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimConstants.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimRequest.o /Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676824.936261
+e281676825.777729
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimRequest.o
+x/Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m281676824#281676825#0(0"0(0#0#62"/Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m4300885448#1929"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/Helpers/WimRequest.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimRequest.o0#
+
+CCompileC build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimSession.o /Users/Michael/Projects/WIM-Framework/src/WimSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676824.934743
+e281676825.779923
+r1
+xCompileC
+xbuild/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimSession.o
+x/Users/Michael/Projects/WIM-Framework/src/WimSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Michael/Projects/WIM-Framework/src/WimSession.m: In function '-[WimSession startSession]':
+o/Users/Michael/Projects/WIM-Framework/src/WimSession.m:1116: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'
+o/Users/Michael/Projects/WIM-Framework/src/WimSession.m: In function '-[WimSession onWimEventProposalReplySentResponse:withError:]':
+o/Users/Michael/Projects/WIM-Framework/src/WimSession.m:1512: warning: unused variable 'jsonString'
+lSLF07#2@62"Compile /Users/Michael/Projects/WIM-Framework/src/WimSession.m281676824#281676825#0(497"/Users/Michael/Projects/WIM-Framework/src/WimSession.m: In function '-[WimSession startSession]':/Users/Michael/Projects/WIM-Framework/src/WimSession.m:1116: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'/Users/Michael/Projects/WIM-Framework/src/WimSession.m: In function '-[WimSession onWimEventProposalReplySentResponse:withError:]':/Users/Michael/Projects/WIM-Framework/src/WimSession.m:1512: warning: unused variable 'jsonString'2(22@97"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSMutableString *'281676825#98#168#0(6@54"/Users/Michael/Projects/WIM-Framework/src/WimSession.m280689058#1116#0#1116#0#58"incompatible Objective-C types assigning '*', expected '*'0(22@28"Unused variable 'jsonString'281676825#398#99#0(6@54"/Users/Michael/Projects/WIM-Framework/src/WimSession.m280689058#1512#0#1512#0#19"unused variable '*'0(0#0#54"/Users/Michael/Projects/WIM-Framework/src/WimSession.m4300885448#1921"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/src/WimSession.m -o /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WimSession.o0#
+
+CLibtool /Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a normal i386
+s281676826.886797
+e281676826.905787
+r1
+xLibtool
+x/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@61"Libtool build/Debug-iphonesimulator/libWIMTouch.a normal i386281676826#281676826#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"4300885448#776"    cd /Users/Michael/Projects/WIM-Framework/src    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -filelist /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/Objects-normal/i386/WIMTouch.LinkFileList -ObjC -framework Foundation -framework CoreData -o /Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a0#
+
+CProcessPCH /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch.gch WIMTouch_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676824.148054
+e281676824.639279
+r1
+xProcessPCH
+x/var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch.gch
+xWIMTouch_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WIMTouch_Prefix.pch281676824#281676824#0(0"0(0#0#61"/Users/Michael/Projects/WIM-Framework/src/WIMTouch_Prefix.pch4300885448#1797"    cd /Users/Michael/Projects/WIM-Framework/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/WIMTouch-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/src/build/WIMTouch.build/Debug-iphonesimulator/WIMTouch.build/DerivedSources -c /Users/Michael/Projects/WIM-Framework/src/WIMTouch_Prefix.pch -o /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WIMTouch_Prefix-biymnuqlpwzqhwdlngeaqaybpdnq/WIMTouch_Prefix.pch.gch0#
+

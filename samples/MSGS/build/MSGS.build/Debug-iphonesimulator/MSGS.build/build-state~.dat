@@ -1,0 +1,435 @@
+TMSGS
+v7
+r0
+t281676829.749959
+cCheck dependencies
+cProcessInfoPlistFile /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/Info.plist MSGS-Info.plist
+cCompileXIB /Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib
+cCompileXIB /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib
+cProcessPCH /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch.gch MSGS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/main.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGSAppDelegate.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageListTableViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/BuddiesViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/ComposeViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageTableViewCellController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004ABE051D00000000000000EE
+t1253967133
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026DB00
+t1242278438
+s2546432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000260C20
+t1242278711
+s2493472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A0BAE3400000000000E4270
+t1242279476
+s934512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001432D80
+t1242349407
+s21179776
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h
+c000000004A07C6AC000000000000010D
+t1242023596
+s269
+i<UIKit/UIKit.h>
+i"MSGSAppDelegate.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m
+c000000004A07C7770000000000001240
+t1242023799
+s4672
+i"BuddiesViewController.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m
+c000000004B19CF1A0000000000003927
+t1259982618
+s14631
+i"MSGSAppDelegate.h"
+i"ComposeViewController.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib
+c000000004A0913F5000000000000408A
+t1242108917
+s16522
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.h
+c000000004A09FA0E000000000000023E
+t1242167822
+s574
+i<UIKit/UIKit.h>
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m
+c000000004A09F9F0000000000000081D
+t1242167792
+s2077
+i"ComposeViewController.h"
+i"MSGSAppDelegate.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h
+c000000004B19D3F30000000000000962
+t1259983859
+s2402
+i<UIKit/UIKit.h>
+i"WIMTouch.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGS_Prefix.pch
+c0000000049EE6A8300000000000000B1
+t1240361603
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib
+c000000004B19C2E200000000000131FD
+t1259979490
+s78333
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h
+c000000004A091F2B0000000000000121
+t1242111787
+s289
+i<UIKit/UIKit.h>
+i"MSGSAppDelegate.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m
+c000000004A09FE670000000000001726
+t1242168935
+s5926
+i"MessageListTableViewController.h"
+i"MessageTableViewCellController.h"
+i"ComposeViewController.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.h
+c000000004A092197000000000000030E
+t1242112407
+s782
+i<UIKit/UIKit.h>
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m
+c000000004B19BDFA0000000000001234
+t1259978234
+s4660
+i"MessageTableViewCellController.h"
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app.dSYM
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/ComposeView.nib
+t1259984027
+s3974
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/Info.plist
+t1259984026
+s550
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/MSGS
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/MainWindow.nib
+t1259984027
+s11221
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/PkgInfo
+t1259984026
+s8
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/BuddiesViewController.o
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/ComposeViewController.o
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGS.LinkFileList
+c000000004B19D49A0000000000000361
+t1259984026
+s865
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGSAppDelegate.o
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageListTableViewController.o
+t2
+s0
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageTableViewCellController.o
+t1259984029
+s28332
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/main.o
+t1259984029
+s5976
+
+N/Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m
+c0000000049EE6A840000000000000165
+t1240361604
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Michael/Projects/WIM-Framework/src/build/Debug-iphonesimulator/libWIMTouch.a
+c000000004B19D49A0000000000052268
+t1259984026
+s336488
+
+N/var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch.gch
+t1259984029
+s12957072
+
+NMSGS-Info.plist
+c0000000049EE6A83000000000000038D
+t1240361603
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281676826#281676826#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/BuddiesViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.571823
+e281676829.655524
+r0
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/BuddiesViewController.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h:10,
+o                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directory
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h:10,
+o                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m: In function '-[BuddiesViewController tableView:cellForRowAtIndexPath:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:99: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)
+lSLF07#2@82"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m281676829#281676829#0(1089"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h:10,                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directoryIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h:10,                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m: In function '-[BuddiesViewController tableView:cellForRowAtIndexPath:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m:99: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)3(4@37"WIMTouch.h: No such file or directory281676829#201#121#3(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m263716599#9#0#9#0#0"0(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h263716396#10#0#10#0#0"0(13@109"WIMTouch.h: No such file or directory in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#28"*: No such file or directory0(4@53"Expected specifier-qualifier-list before 'WimSession'281676829#523#134#3(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m263716599#9#0#9#0#0"0(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.h263716396#10#0#10#0#0"0(13@125"Expected specifier-qualifier-list before 'WimSession' in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#19"expected * before *0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)281676829#806#283#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m263716599#99#0#99#0#33"'*' is deprecated (declared at *)0(0#0#74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m4300885448#1963"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/BuddiesViewController.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/BuddiesViewController.o1#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/ComposeViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.618575
+e281676829.703078
+r0
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/ComposeViewController.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m:10:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directory
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m:10:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'
+lSLF07#2@82"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m281676829#281676829#0(457"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m:10:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directoryIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m:10:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'2(4@37"WIMTouch.h: No such file or directory281676829#101#121#2(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m263860592#10#0#10#0#0"0(13@109"WIMTouch.h: No such file or directory in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#28"*: No such file or directory0(4@53"Expected specifier-qualifier-list before 'WimSession'281676829#323#134#2(7@96"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m281676829#18446744073709551615#0#0(6@74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m263860592#10#0#10#0#0"0(13@125"Expected specifier-qualifier-list before 'WimSession' in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#19"expected * before *0(0#0#74"/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m4300885448#1963"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeViewController.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/ComposeViewController.o1#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGSAppDelegate.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.461850
+e281676829.571718
+r0
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGSAppDelegate.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directory
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate applicationDidFinishLaunching:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: 'kAPIBaseURL' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: (Each undeclared identifier is reported only once
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: for each function it appears in.)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: 'kProdAPIBaseURL' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:40: error: 'kAuthBaseURL' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:40: error: 'kProdAuthBaseURL' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:53: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:53: error: 'WimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:60: error: 'kWimClientConnectionStateChange' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:63: error: 'kWimSessionSessionEndedEvent' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:68: error: 'kWimClientIMSent' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate dealloc]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:106: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onWimSessionConnectionStateChange:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:146: error: 'WimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:146: error: 'session' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:147: error: 'ConnectionState' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:147: error: expected ';' before 'state'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:152: error: 'state' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:155: error: 'ConnectionState_Offline' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:158: error: 'ConnectionState_Authenticating' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:161: error: 'ConnectionState_Connecting' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:164: error: 'ConnectionState_Reconnecting' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:167: error: 'ConnectionState_Connected' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSignOff:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:197: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSignOn:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:203: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSendWithMessage:recipient:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:241: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSend:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:255: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onPresence:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:264: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setAwayMessage:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:288: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setStatusMessage:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:302: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setStatus:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:318: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setProfileMessage:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:327: error: 'wimSession' undeclared (first use in this function)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:348: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:354: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:361: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:408: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate wimSession:receivedPresenceEvent:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: 'NSDictionary' may not respond to '-displayName'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: (Messages without a matching method signature
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: will be assumed to return 'id' and accept
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: '...' as arguments.)
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: 'NSDictionary' may not respond to '-state'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:416: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:420: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:424: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate wimSession:receivedIMEvent:]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:439: warning: no '-aimId' method found
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:443: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:446: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:449: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:452: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:466: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:514: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:550: error: expected ')' before 'WimSession'
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:593: warning: property 'messagesNavigationController' requires method '-messagesNavigationController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:593: warning: property 'messagesNavigationController' requires the method 'setMessagesNavigationController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@87"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281676829#281676829#0(10292"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directoryIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate applicationDidFinishLaunching:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: 'kAPIBaseURL' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: (Each undeclared identifier is reported only once/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: for each function it appears in.)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:39: error: 'kProdAPIBaseURL' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:40: error: 'kAuthBaseURL' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:40: error: 'kProdAuthBaseURL' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:53: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:53: error: 'WimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:60: error: 'kWimClientConnectionStateChange' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:63: error: 'kWimSessionSessionEndedEvent' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:68: error: 'kWimClientIMSent' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate dealloc]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:106: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onWimSessionConnectionStateChange:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:146: error: 'WimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:146: error: 'session' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:147: error: 'ConnectionState' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:147: error: expected ';' before 'state'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:152: error: 'state' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:155: error: 'ConnectionState_Offline' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:158: error: 'ConnectionState_Authenticating' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:161: error: 'ConnectionState_Connecting' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:164: error: 'ConnectionState_Reconnecting' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:167: error: 'ConnectionState_Connected' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSignOff:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:197: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSignOn:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:203: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSendWithMessage:recipient:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:241: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onSend:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:255: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate onPresence:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:264: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setAwayMessage:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:288: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setStatusMessage:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:302: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setStatus:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:318: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate setProfileMessage:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:327: error: 'wimSession' undeclared (first use in this function)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:348: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:354: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:361: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:408: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate wimSession:receivedPresenceEvent:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: 'NSDictionary' may not respond to '-displayName'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: (Messages without a matching method signature/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: will be assumed to return 'id' and accept/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: '...' as arguments.)/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:412: warning: 'NSDictionary' may not respond to '-state'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:416: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:420: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:424: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: In function '-[MSGSAppDelegate wimSession:receivedIMEvent:]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:439: warning: no '-aimId' method found/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m: At top level:/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:443: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:446: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:449: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:452: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:466: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:514: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:550: error: expected ')' before 'WimSession'/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:593: warning: property 'messagesNavigationController' requires method '-messagesNavigationController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m:593: warning: property 'messagesNavigationController' requires the method 'setMessagesNavigationController:' to be defined - use @synthesize, @dynamic or provide a method implementation54(4@37"WIMTouch.h: No such file or directory281676829#105#132#2(7@101"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281676829#18446744073709551615#0#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#9#0#9#0#0"0(13@120"WIMTouch.h: No such file or directory in /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676659#10#0#10#0#0"0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676659#10#0#10#0#28"*: No such file or directory0(4@53"Expected specifier-qualifier-list before 'WimSession'281676829#342#145#2(7@101"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281676829#18446744073709551615#0#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#9#0#9#0#0"0(13@136"Expected specifier-qualifier-list before 'WimSession' in /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676659#50#0#50#0#0"0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.h281676659#50#0#50#0#19"expected * before *0(4@53"'kAPIBaseURL' undeclared (first use in this function)281676829#633#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#39#0#39#0#43"'*' undeclared (first use in this function)0(4@57"'kProdAPIBaseURL' undeclared (first use in this function)281676829#1044#149#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#39#0#39#0#43"'*' undeclared (first use in this function)0(4@54"'kAuthBaseURL' undeclared (first use in this function)281676829#1193#146#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#40#0#40#0#43"'*' undeclared (first use in this function)0(4@58"'kProdAuthBaseURL' undeclared (first use in this function)281676829#1339#150#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#40#0#40#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#1489#144#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#53#0#53#0#43"'*' undeclared (first use in this function)0(4@52"'WimSession' undeclared (first use in this function)281676829#1633#144#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#53#0#53#0#43"'*' undeclared (first use in this function)0(4@73"'kWimClientConnectionStateChange' undeclared (first use in this function)281676829#1777#165#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#60#0#60#0#43"'*' undeclared (first use in this function)0(4@70"'kWimSessionSessionEndedEvent' undeclared (first use in this function)281676829#1942#162#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#63#0#63#0#43"'*' undeclared (first use in this function)0(4@58"'kWimClientIMSent' undeclared (first use in this function)281676829#2104#150#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#68#0#68#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#2377#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#106#0#106#0#43"'*' undeclared (first use in this function)0(4@52"'WimSession' undeclared (first use in this function)281676829#2672#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#146#0#146#0#43"'*' undeclared (first use in this function)0(4@49"'session' undeclared (first use in this function)281676829#2817#142#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#146#0#146#0#43"'*' undeclared (first use in this function)0(4@57"'ConnectionState' undeclared (first use in this function)281676829#2959#150#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#147#0#147#0#43"'*' undeclared (first use in this function)0(4@27"Expected ';' before 'state'281676829#3109#120#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#147#0#147#0#19"expected * before *0(4@47"'state' undeclared (first use in this function)281676829#3229#140#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#152#0#152#0#43"'*' undeclared (first use in this function)0(4@65"'ConnectionState_Offline' undeclared (first use in this function)281676829#3369#158#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#155#0#155#0#43"'*' undeclared (first use in this function)0(4@72"'ConnectionState_Authenticating' undeclared (first use in this function)281676829#3527#165#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#158#0#158#0#43"'*' undeclared (first use in this function)0(4@68"'ConnectionState_Connecting' undeclared (first use in this function)281676829#3692#161#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#161#0#161#0#43"'*' undeclared (first use in this function)0(4@70"'ConnectionState_Reconnecting' undeclared (first use in this function)281676829#3853#163#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#164#0#164#0#43"'*' undeclared (first use in this function)0(4@67"'ConnectionState_Connected' undeclared (first use in this function)281676829#4016#160#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#167#0#167#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#4302#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#197#0#197#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#4572#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#203#0#203#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#4861#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#241#0#241#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#5129#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#255#0#255#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#5401#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#264#0#264#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#5677#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#288#0#288#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#5955#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#302#0#302#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#6226#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#318#0#318#0#43"'*' undeclared (first use in this function)0(4@52"'wimSession' undeclared (first use in this function)281676829#6505#145#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#327#0#327#0#43"'*' undeclared (first use in this function)0(23@13"At top level:281676829#6650#95#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#0#0#0#0#0"0(4@32"Expected ')' before 'WimSession'281676829#6745#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#348#0#348#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#6870#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#354#0#354#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#6995#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#361#0#361#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#7120#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#408#0#408#0#19"expected * before *0(22@48"'NSDictionary' may not respond to '-displayName'281676829#7394#143#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#412#0#412#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)281676829#7537#140#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#412#0#412#0#0"0(22@42"'NSDictionary' may not respond to '-state'281676829#7928#137#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#412#0#412#0#26"'*' may not respond to '*'0(23@13"At top level:281676829#8065#95#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#0#0#0#0#0"0(4@32"Expected ')' before 'WimSession'281676829#8160#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#416#0#416#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#8285#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#420#0#420#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#8410#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#424#0#424#0#19"expected * before *0(22@24"No '-aimId' method found281676829#8678#119#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#439#0#439#0#19"no '*' method found0(23@13"At top level:281676829#8797#95#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#0#0#0#0#0"0(4@32"Expected ')' before 'WimSession'281676829#8892#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#443#0#443#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9017#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#446#0#446#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9142#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#449#0#449#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9267#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#452#0#452#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9392#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#466#0#466#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9517#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#514#0#514#0#19"expected * before *0(4@32"Expected ')' before 'WimSession'281676829#9642#125#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#550#0#550#0#19"expected * before *0(22@164"Property 'messagesNavigationController' requires method '-messagesNavigationController' to be defined - use @synthesize, @dynamic or provide a method implementation281676829#9767#259#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#593#0#593#0#0"0(22@171"Property 'messagesNavigationController' requires the method 'setMessagesNavigationController:' to be defined - use @synthesize, @dynamic or provide a method implementation281676829#10026#266#0(6@79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m281675418#593#0#593#0#0"0(0#0#79"/Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m4300885448#1962"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/Classes/../MSGSAppDelegate.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MSGSAppDelegate.o1#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageListTableViewController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.530283
+e281676829.618140
+r0
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageListTableViewController.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h:10,
+o                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directory
+oIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h:10,
+o                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m:9:
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'
+lSLF07#2@91"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m281676829#281676829#0(693"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h:10,                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:10:21: error: WIMTouch.h: No such file or directoryIn file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h:10,                 from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m:9:/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h:50: error: expected specifier-qualifier-list before 'WimSession'2(4@37"WIMTouch.h: No such file or directory281676829#219#121#3(7@105"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m281676829#18446744073709551615#0#0(6@83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m263861735#9#0#9#0#0"0(7@105"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h281676829#18446744073709551615#0#0(6@83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h263804587#10#0#10#0#0"0(13@109"WIMTouch.h: No such file or directory in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#10#0#10#0#28"*: No such file or directory0(4@53"Expected specifier-qualifier-list before 'WimSession'281676829#559#134#3(7@105"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m281676829#18446744073709551615#0#0(6@83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m263861735#9#0#9#0#0"0(7@105"In file included from /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h281676829#18446744073709551615#0#0(6@83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.h263804587#10#0#10#0#0"0(13@125"Expected specifier-qualifier-list before 'WimSession' in /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676829#18446744073709551615#0#0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#0"0(6@68"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGSAppDelegate.h281676659#50#0#50#0#19"expected * before *0(0#0#83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m4300885448#1981"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageListTableViewController.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageListTableViewController.o1#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageTableViewCellController.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.655633
+e281676829.749879
+r1
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageTableViewCellController.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m: In function '-[MessageTableViewCellController layoutSubviews]':
+o/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m:115: warning: unused variable 'endY'
+lSLF07#2@91"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m281676829#281676829#0(270"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m: In function '-[MessageTableViewCellController layoutSubviews]':/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m:115: warning: unused variable 'endY'1(22@22"Unused variable 'endY'281676829#149#121#0(6@83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m281671034#115#0#115#0#19"unused variable '*'0(0#0#83"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m4300885448#1981"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/MessageTableViewCellController.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/MessageTableViewCellController.o0#
+
+CCompileC build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/main.o /Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676829.460747
+e281676829.530021
+r1
+xCompileC
+xbuild/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/main.o
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m281676829#281676829#0(0"0(0#0#57"/Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m4300885448#1929"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -include /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/main.m -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib
+s281676826.928806
+e281676827.991609
+r1
+xCompileXIB
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib
+lSLF07#2@26"CompileXIB ComposeView.xib281676826#281676827#0(0"0(0#0#66"/Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib4300885448#515"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/ComposeView.nib /Users/Michael/Projects/WIM-Framework/samples/MSGS/ComposeView.xib0#
+
+CCompileXIB /Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib
+s281676826.928085
+e281676828.223282
+r1
+xCompileXIB
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib281676826#281676828#0(0"0(0#0#65"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib4300885448#513"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/MainWindow.nib /Users/Michael/Projects/WIM-Framework/samples/MSGS/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app.dSYM /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/MSGS
+r0
+
+CLd /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/MSGS normal i386
+r0
+
+CProcessInfoPlistFile /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/Info.plist MSGS-Info.plist
+s281676826.916733
+e281676826.927989
+r1
+xProcessInfoPlistFile
+x/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/Info.plist
+xMSGS-Info.plist
+lSLF07#2@23"Process MSGS-Info.plist281676826#281676826#0(0"0(0#0#66"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGS-Info.plist4300885448#506"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MSGS-Info.plist -genpkginfo /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app/Info.plist0#
+
+CProcessPCH /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch.gch MSGS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s281676828.224043
+e281676829.460635
+r1
+xProcessPCH
+x/var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch.gch
+xMSGS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile MSGS_Prefix.pch281676828#281676829#0(0"0(0#0#66"/Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGS_Prefix.pch4300885448#1812"    cd /Users/Michael/Projects/WIM-Framework/samples/MSGS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-generated-files.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-own-target-headers.hmap -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-all-target-headers.hmap -iquote /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/MSGS-project-headers.hmap -F/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/include -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources/i386 -I/Users/Michael/Projects/WIM-Framework/samples/MSGS/build/MSGS.build/Debug-iphonesimulator/MSGS.build/DerivedSources -c /Users/Michael/Projects/WIM-Framework/samples/MSGS/MSGS_Prefix.pch -o /var/folders/w7/w7eVzlCpFAixZToqcWLoa++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MSGS_Prefix-gympmumntaorpuaskxpyogmyaayj/MSGS_Prefix.pch.gch0#
+
+CTouch /Users/Michael/Projects/WIM-Framework/samples/MSGS/build/Debug-iphonesimulator/MSGS.app
+r0
+
